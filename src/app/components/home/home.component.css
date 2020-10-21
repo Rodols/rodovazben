@@ -1,0 +1,29 @@
+section{
+
+}
+
+
+.card_title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: block;
+  width: 800px;
+  height: 350px;
+}
+
+.card_title h1{
+  text-align: center;
+  font-size: 2rem;
+}
+
+.services{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  list-style: square;
+}
+
