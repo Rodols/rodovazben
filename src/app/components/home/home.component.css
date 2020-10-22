@@ -37,17 +37,16 @@ h3{
   font-size: 1.5rem;
   font-weight: bold;
   color: whitesmoke;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 .habilities {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   margin-top: 1rem;
   font-size: 1.2rem;
-  list-style: square;
   font-weight: bold;
+  list-style: square;
+  text-align: ;
 }
 
 .section2 {
@@ -97,8 +96,14 @@ opacity: 0.8;
   z-index: -1;
 }
 
-@media screen and (max-width:800px){
-section{
-  background-color: tomato;
+@media screen and (max-width:1000px){
+article{
+  width: 80%;
+}
+}
+
+@media screen and (max-width:700px){
+article{
+  width: 90%;
 }
 }

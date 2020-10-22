@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "rodovazben": {
+      "hosting": {
+        "rodovazbenweb": [
+          "rodovazben"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "rodovazben"
+  }
+}
