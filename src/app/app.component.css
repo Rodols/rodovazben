@@ -1,15 +1,5 @@
-section{
- min-height: 100%;
-}
-
 .container-nav{
-  min-height: 20vh;
-}
-
-
-.container-body{
-  min-height: 80vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
 }

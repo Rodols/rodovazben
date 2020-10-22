@@ -1,23 +1,29 @@
-section{
-
+section {
+  position: relative;
+  height: 100vh;
+  z-index: 1;
 }
 
-
-.card_title{
+.section1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  display: block;
-  width: 800px;
-  height: 350px;
+  flex-direction: column;
+  background-image: url(../../../assets/img/pc_glasses.jpg);
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
-.card_title h1{
+
+h2 {
+  color: whitesmoke;
   text-align: center;
   font-size: 2rem;
 }
 
-.services{
+.habilities {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -27,3 +33,49 @@ section{
   list-style: square;
 }
 
+.section2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(../../../assets/img/spencer.jpg);
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.section3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(../../../assets/img/ilya-pavlov.jpg);
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.section4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(../../../assets/img/pc_retro.jpg);
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+section::before {
+  content: "";
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(90deg,#b993d6, #8ca6db);
+  position: absolute;
+  left: 0;
+opacity: 0.6;
+  z-index: -1;
+}
