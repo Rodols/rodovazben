@@ -4,6 +4,14 @@ section {
   z-index: 1;
 }
 
+article{
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 50%;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
 .section1 {
   display: flex;
   justify-content: center;
@@ -21,6 +29,14 @@ h2 {
   color: whitesmoke;
   text-align: center;
   font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+h3{
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: whitesmoke;
 }
 
 .habilities {
@@ -31,6 +47,7 @@ h2 {
   margin-top: 1rem;
   font-size: 1.2rem;
   list-style: square;
+  font-weight: bold;
 }
 
 .section2 {
@@ -76,6 +93,12 @@ section::before {
   background: linear-gradient(90deg,#b993d6, #8ca6db);
   position: absolute;
   left: 0;
-opacity: 0.6;
+opacity: 0.8;
   z-index: -1;
+}
+
+@media screen and (max-width:800px){
+section{
+  background-color: tomato;
+}
 }
