@@ -1,0 +1,46 @@
+.card {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card-body {
+  flex-direction: row;
+  width: 80%;
+  display: flex;
+}
+
+.card-mini {
+  text-align: center;
+  background: #0f0258;
+  color: #fecd1a;
+  font-weight: bolder;
+  font-size: 1.2rem;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 5px;
+  box-shadow: rgb(15, 2, 88) 2px 1px 5px 1px;
+}
+
+.title-white {
+  color: whitesmoke;
+  padding: 1rem;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #0f0258;
+}
+
+h3 {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #0f0258;
+}

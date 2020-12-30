@@ -28,27 +28,6 @@ article {
   box-shadow: rgb(15, 2, 88) 2px 1px 5px 1px;
 }
 
-.card-mini-dark {
-  text-align: center;
-  color: whitesmoke;
-  font-weight: bolder;
-  font-size: 2rem;
-  padding: 1rem;
-  margin: 1rem;
-}
-
-.card-footer {
-  text-align: center;
-  background: #0f0258;
-  color: #fecd1a;
-  font-weight: bolder;
-  font-size: 1.2rem;
-  padding: 1rem;
-  margin: 1rem;
-  border-radius: 5px;
-  box-shadow: rgb(15, 2, 88) 2px 1px 5px 1px;
-}
-
 .contact {
   padding: 0.5rem;
   border: none;
@@ -74,11 +53,6 @@ article {
   align-items: center;
   flex-direction: column;
   border-radius: 5px;
-}
-
-.description {
-  font-weight: 300;
-  font-size: 1.2rem;
 }
 
 .card-white {
@@ -113,25 +87,6 @@ h4 {
   font-size: 1.2rem;
 }
 
-.title-white {
-  color: white;
-  text-align: center;
-}
-
-.title-yellow {
-  color: #fecd1a;
-  text-align: center;
-}
-
-.list {
-  margin: 2rem;
-  font-weight: 300;
-  list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
 .section1 {
   display: flex;
   justify-content: center;
@@ -159,7 +114,7 @@ h4 {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  flex-direction: row;
   background-image: url(../../../assets/img/ilya-pavlov.jpg);
   overflow: hidden;
   background-size: cover;

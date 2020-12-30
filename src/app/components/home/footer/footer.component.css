@@ -1,0 +1,43 @@
+.card-footer {
+  text-align: center;
+  background: #0f0258;
+  color: #fecd1a;
+  font-weight: bolder;
+  font-size: 1.2rem;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 5px;
+  box-shadow: rgb(15, 2, 88) 2px 1px 5px 1px;
+}
+
+.contact {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 5px;
+  box-shadow: rgb(15, 2, 88) 2px 1px 5px 1px;
+  text-align: center;
+  font-weight: bold;
+  background-color: #0f0258;
+  color: whitesmoke;
+}
+
+.contact span {
+  color: #fecd1a;
+}
+
+.title-white {
+  font-weight: bold;
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+}
+
+.list {
+  margin: 2rem;
+  font-weight: 300;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

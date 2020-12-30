@@ -8,9 +8,13 @@ import { HomeComponent } from './components/home/home.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { environment } from 'src/environments/environment';
 import { AngularFireModule } from '@angular/fire';
+import { HardwareComponent } from './components/home/hardware/hardware.component';
+import { ServiciosComponent } from './components/home/servicios/servicios.component';
+import { SoftwareComponent } from './components/home/software/software.component';
+import { FooterComponent } from './components/home/footer/footer.component';
 
 @NgModule({
-  declarations: [AppComponent, HomeComponent, NavbarComponent],
+  declarations: [AppComponent, HomeComponent, NavbarComponent, HardwareComponent, ServiciosComponent, SoftwareComponent, FooterComponent],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,

@@ -24,7 +24,7 @@ import {
         animate(
           500,
           style({
-            transform: 'sclae(1)',
+            transform: 'scale(1)',
             opacity: 1,
           })
         ),

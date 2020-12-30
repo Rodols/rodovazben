@@ -1,4 +1,4 @@
-import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { HomeComponent } from '../home/home.component';
 
 @Component({
@@ -8,11 +8,7 @@ import { HomeComponent } from '../home/home.component';
   styleUrls: ['./navbar.component.css'],
 })
 export class NavbarComponent implements OnInit {
-  constructor(private compHome: HomeComponent) {}
+  constructor() {}
 
   ngOnInit(): void {}
-
-  serviciosVer() {
-    this.compHome.serviciosVer();
-  }
 }

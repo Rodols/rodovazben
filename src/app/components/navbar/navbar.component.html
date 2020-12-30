@@ -1,9 +1,9 @@
 <section class="nav-bar">
-  <a class="logo" href="#">Rodolfo V.B.</a>
+  <a class="logo" [routerLink]="['/']">Rodolfo V.B.</a>
   <nav>
     <ul class="nav-area">
-      <li><a href="">Inicio</a></li>
-      <li><a href="" (click)="serviciosVer()">Hardware</a></li>
+      <li><a>Inicio</a></li>
+      <li><a [routerLink]="['/inicio']">Hardware</a></li>
       <li><a href="#">Software</a></li>
       <li><a href="#">servicios</a></li>
     </ul>
