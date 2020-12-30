@@ -1,8 +1,14 @@
 <section class="section1">
   <div @enterState>
-    <button type="button" class="card-mini">Hardware</button>
-    <button type="button" class="card-mini">Software</button>
-    <button type="button" class="card-mini">Servicios</button>
+    <button type="button" class="card-mini" (click)="hardwareVer()">
+      Hardware
+    </button>
+    <button type="button" class="card-mini" (click)="serviciosVer()">
+      Servicios
+    </button>
+    <button type="button" class="card-mini" (click)="softwareVer()">
+      Software
+    </button>
     <hr />
     <h4 class="contact">
       <span>WhatsApp:</span> 2292462909, <span> Email:</span>
@@ -10,7 +16,7 @@
     </h4>
   </div>
 </section>
-<section class="section2" @enterState>
+<section class="section2" @enterState #servicios>
   <div>
     <article>
       <h2>Servicios</h2>
@@ -36,7 +42,7 @@
     </article>
   </div>
 </section>
-<section class="section3">
+<section class="section3" #hardware>
   <div class="card card-mini-dark">
     <h2 class="title-yellow">Diseño de hardware</h2>
     <article>
@@ -56,7 +62,7 @@
     </article>
   </div>
 </section>
-<section class="section4">
+<section class="section4" #software>
   <div class="card-white">
     <h3>
       <h2>Software</h2>
