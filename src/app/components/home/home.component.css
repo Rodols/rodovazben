@@ -4,12 +4,69 @@ section {
   z-index: 1;
 }
 
-article{
+article {
   margin-top: 2%;
   margin-bottom: 2%;
-  width: 50%;
+  width: 100%;
   font-size: 1.2rem;
   font-weight: bold;
+}
+
+.card {
+  text-align: center;
+  width: 50%;
+  margin: 2rem;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 5px;
+  /* box-shadow: rgb(218, 7, 7) 2px 1px 5px 1px;
+  background-color: rgb(239, 250, 250); */
+  opacity: 0.7;
+}
+
+.description {
+  font-weight: 300;
+  font-size: 1.2rem;
+}
+
+.card-white {
+  text-align: center;
+  width: 50%;
+  margin: 2rem;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: whitesmoke;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h4 {
+  font-size: 1.2rem;
+}
+
+.list {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  font-weight: 300;
+  list-style: none;
 }
 
 .section1 {
@@ -23,38 +80,12 @@ article{
   background-position: center;
   background-attachment: fixed;
 }
-
-
-h2 {
-  color: whitesmoke;
-  text-align: center;
-  font-size: 2rem;
-  font-weight: bold;
-  text-transform: uppercase;
-}
-
-h3{
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: whitesmoke;
-  text-transform: uppercase;
-  text-align: center;
-}
-
-.habilities {
-  margin-top: 1rem;
-  font-size: 1.2rem;
-  font-weight: bold;
-  list-style: square;
-  text-align: ;
-}
-
 .section2 {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-image: url(../../../assets/img/spencer.jpg);
+  /* background-image: url(../../../assets/img/spencer.jpg); */
   overflow: hidden;
   background-size: cover;
   background-position: center;
@@ -78,32 +109,66 @@ h3{
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-image: url(../../../assets/img/pc_retro.jpg);
+  /* background-image: url(../../../assets/img/pc_retro.jpg); */
   overflow: hidden;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
 }
 
-section::before {
+.section5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* background-image: url(../../../assets/img/pc_retro.jpg); */
+  background: lin;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  animation-name: spin;
+  animation-duration: 2000ms;
+  transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.section3::before {
   content: "";
   width: 100%;
   height: 100vh;
-  background: linear-gradient(90deg,#b993d6, #8ca6db);
+  background-color: #0f0258;
   position: absolute;
   left: 0;
-opacity: 0.8;
+  opacity: 0.7;
   z-index: -1;
 }
 
-@media screen and (max-width:1000px){
-article{
-  width: 80%;
-}
+.section5::before {
+  content: "";
+  width: 100%;
+  height: 100vh;
+  background-color: #0f0258;
+  position: absolute;
+  left: 0;
+  opacity: 0.7;
+  z-index: -1;
+  rotate: 45;
 }
 
-@media screen and (max-width:700px){
-article{
-  width: 90%;
+@media screen and (max-width: 1000px) {
+  .card-white {
+    width: 80%;
+  }
+  .card {
+    width: 80%;
+  }
 }
+
+@media screen and (max-width: 700px) {
+  .card {
+    width: 90%;
+  }
+  .card-white {
+    width: 90%;
+  }
 }
