@@ -12,6 +12,7 @@ import { HardwareComponent } from './components/home/hardware/hardware.component
 import { ServiciosComponent } from './components/home/servicios/servicios.component';
 import { SoftwareComponent } from './components/home/software/software.component';
 import { FooterComponent } from './components/home/footer/footer.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [AppComponent, HomeComponent, NavbarComponent, HardwareComponent, ServiciosComponent, SoftwareComponent, FooterComponent],
@@ -20,6 +21,7 @@ import { FooterComponent } from './components/home/footer/footer.component';
     BrowserAnimationsModule,
     AppRoutingModule,
     AngularFireModule.initializeApp(environment.firebaseConfig),
+    FontAwesomeModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

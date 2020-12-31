@@ -1,11 +1,16 @@
 <section class="nav-bar">
   <a class="logo" [routerLink]="['/']">Rodolfo V.B.</a>
-  <nav>
-    <ul class="nav-area">
-      <li><a>Inicio</a></li>
-      <li><a [routerLink]="['/inicio']">Hardware</a></li>
-      <li><a href="#">Software</a></li>
-      <li><a href="#">servicios</a></li>
-    </ul>
-  </nav>
+  <div class="respmenu">
+    <input type="checkbox" />
+    <fa-icon class="fa-bars" [icon]="fabars"></fa-icon>
+    <fa-icon class="fa-times" [icon]="faTimes"></fa-icon>
+    <nav>
+      <ul class="nav-area">
+        <li><a>Inicio</a></li>
+        <li><a [routerLink]="['/inicio']">Hardware</a></li>
+        <li><a href="#">Software</a></li>
+        <li><a href="#">servicios</a></li>
+      </ul>
+    </nav>
+  </div>
 </section>
