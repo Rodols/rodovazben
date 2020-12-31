@@ -1,7 +1,7 @@
 .card-footer {
   text-align: center;
   background: #0f0258;
-  color: #fecd1a;
+  color: whitesmoke;
   font-weight: bolder;
   font-size: calc(0.3em + 1vw);
   padding: calc(0.3em + 1vw);
@@ -26,11 +26,11 @@
   color: #fecd1a;
 }
 
-.title-white {
+.title-yellow {
   font-weight: bold;
   font-size: calc(1.2em + 1vw);
   text-transform: uppercase;
-  color: white;
+  color: #fecd1a;
   text-align: center;
 }
 

@@ -21,7 +21,7 @@
   color: #fecd1a;
   text-align: center;
   padding: calc(0.3em + 1vw);
-  font-size: calc(1.2em + 1vw);
+  font-size: calc(1em + 1vw);
 }
 
 @media screen and (max-width: 700px) {

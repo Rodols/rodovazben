@@ -20,21 +20,25 @@
   background: #0f0258;
   color: #fecd1a;
   font-weight: bolder;
-  font-size: calc(0.3em + 1vw);
   padding: 1em;
   margin: 1em;
   border-radius: 5px;
   box-shadow: rgb(15, 2, 88) 2px 1px 5px 1px;
 }
-
-.title-white {
+.description {
   color: whitesmoke;
+  font-weight: 300;
+  font-size: calc(0.5em + 1vw);
+}
+
+.title-yellow {
+  color: #fecd1a;
   padding: calc(0.2em + 1vw);
 }
 
 h2 {
   text-align: center;
-  font-size: calc(1.2em + 1vw);
+  font-size: calc(1em + 1vw);
   font-weight: bold;
   text-transform: uppercase;
   color: #0f0258;
