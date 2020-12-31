@@ -4,14 +4,6 @@ section {
   z-index: 1;
 }
 
-article {
-  margin-top: 2%;
-  margin-bottom: 2%;
-  width: 100%;
-  font-size: 1.2rem;
-  font-weight: bold;
-}
-
 .section1 button {
   cursor: pointer;
 }
@@ -21,15 +13,15 @@ article {
   background: #0f0258;
   color: #fecd1a;
   font-weight: bolder;
-  font-size: 1.2rem;
-  padding: 1rem;
-  margin: 1rem;
+  font-size: calc(0.5em + 1vw);
+  padding: calc(0.3em + 1vw);
+  margin: calc(0.3em + 1vw);
   border-radius: 5px;
   box-shadow: rgb(15, 2, 88) 2px 1px 5px 1px;
 }
 
 .contact {
-  padding: 0.5rem;
+  padding: calc(0.1em + 1vw);
   border: none;
   border-radius: 5px;
   box-shadow: rgb(15, 2, 88) 2px 1px 5px 1px;
@@ -43,48 +35,8 @@ article {
   color: #fecd1a;
 }
 
-.card {
-  text-align: center;
-  width: 50%;
-  margin: 2rem;
-  padding: 2rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  border-radius: 5px;
-}
-
-.card-white {
-  text-align: center;
-  width: 50%;
-  margin: 2rem;
-  padding: 2rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  color: whitesmoke;
-}
-
-h2 {
-  text-align: center;
-  font-size: 2rem;
-  font-weight: bold;
-  text-transform: uppercase;
-  color: #0f0258;
-}
-
-h3 {
-  font-size: 1.5rem;
-  font-weight: bold;
-  text-transform: uppercase;
-  text-align: center;
-  color: #0f0258;
-}
-
 h4 {
-  font-size: 1.2rem;
+  font-size: calc(0.4em + 1vw);
 }
 
 .section1 {
@@ -171,22 +123,4 @@ h4 {
   opacity: 0.7;
   z-index: -1;
   rotate: 45;
-}
-
-@media screen and (max-width: 1000px) {
-  .card-white {
-    width: 80%;
-  }
-  .card {
-    width: 80%;
-  }
-}
-
-@media screen and (max-width: 700px) {
-  .card {
-    width: 90%;
-  }
-  .card-white {
-    width: 90%;
-  }
 }

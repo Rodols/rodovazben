@@ -6,7 +6,7 @@
 }
 
 .card-body {
-  width: 50%;
+  width: 80%;
   display: flex;
   flex-direction: column;
 }
@@ -14,12 +14,18 @@
 .description {
   color: whitesmoke;
   font-weight: 300;
-  font-size: 1.2rem;
+  font-size: calc(0.5em + 1vw);
 }
 
 .title-yellow {
   color: #fecd1a;
   text-align: center;
-  padding: 1rem;
-  font-size: 2rem;
+  padding: calc(0.3em + 1vw);
+  font-size: calc(1.2em + 1vw);
+}
+
+@media screen and (max-width: 700px) {
+  .card-body {
+    width: 90%;
+  }
 }

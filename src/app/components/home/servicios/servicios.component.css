@@ -1,28 +1,39 @@
+.card-body {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
 .card-mini {
   text-align: center;
   background: #0f0258;
   color: #fecd1a;
   font-weight: bolder;
-  font-size: 1.2rem;
-  padding: 1rem;
-  margin: 1rem;
+  font-size: calc(0.5em + 1vw);
+  padding: calc(0.3em + 1vw);
+  margin: calc(0.3em + 1vw);
   border-radius: 5px;
   box-shadow: rgb(15, 2, 88) 2px 1px 5px 1px;
 }
 
 h2 {
   text-align: center;
-  font-size: 2rem;
+  font-size: calc(1.2em + 1vw);
   font-weight: bold;
   text-transform: uppercase;
   color: #0f0258;
 }
 
 .list {
-  margin: 2rem;
+  width: 80%;
+  margin: calc(0.3em + 1vw);
   font-weight: 300;
   list-style: none;
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
 }

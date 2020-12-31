@@ -3,15 +3,16 @@
   background: #0f0258;
   color: #fecd1a;
   font-weight: bolder;
-  font-size: 1.2rem;
-  padding: 1rem;
-  margin: 1rem;
+  font-size: calc(0.3em + 1vw);
+  padding: calc(0.3em + 1vw);
+  margin: calc(0.3em + 1vw);
   border-radius: 5px;
   box-shadow: rgb(15, 2, 88) 2px 1px 5px 1px;
 }
 
 .contact {
-  padding: 0.5rem;
+  padding: calc(0.1em + 1vw);
+  font-size: calc(0.4em + 1vw);
   border: none;
   border-radius: 5px;
   box-shadow: rgb(15, 2, 88) 2px 1px 5px 1px;
@@ -27,17 +28,23 @@
 
 .title-white {
   font-weight: bold;
-  font-size: 2rem;
+  font-size: calc(1.2em + 1vw);
   text-transform: uppercase;
   color: white;
   text-align: center;
 }
 
 .list {
-  margin: 2rem;
+  margin: calc(1.2em + 1vw);
   font-weight: 300;
   list-style: none;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+@media screen and (max-width: 700px) {
+  .card {
+    width: 100%;
+  }
 }
