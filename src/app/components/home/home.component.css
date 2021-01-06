@@ -12,7 +12,7 @@ section {
   text-align: center;
   background: linear-gradient(
     180deg,
-    rgba(2, 0, 36, 1) 0%,
+    rgb(18, 0, 120, 1) 0%,
     rgba(9, 9, 121, 1) 35%,
     rgba(0, 212, 255, 1) 100%
   );
@@ -23,6 +23,7 @@ section {
   margin: calc(0.3em + 1vw);
   border: none;
   border-radius: 5px;
+  box-shadow: #006c87 1px 1px 2px 1px;
 }
 
 .contact {
@@ -33,7 +34,7 @@ section {
   font-weight: bold;
   background: linear-gradient(
     90deg,
-    rgba(2, 0, 36, 1) 0%,
+    #120078 0%,
     rgba(9, 9, 121, 1) 35%,
     rgba(0, 212, 255, 1) 100%
   );

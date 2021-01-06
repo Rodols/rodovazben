@@ -9,14 +9,14 @@
 
 .card-mini {
   text-align: center;
-  background: #0f0258;
-  color: #fecd1a;
+  color: #0f0258;
   font-weight: bolder;
   font-size: calc(0.5em + 1vw);
   padding: calc(0.3em + 1vw);
   margin: calc(0.3em + 1vw);
+  border: none;
   border-radius: 5px;
-  box-shadow: rgb(15, 2, 88) 2px 1px 5px 1px;
+  box-shadow: #006c87 1px 1px 2px 1px;
 }
 
 h2 {

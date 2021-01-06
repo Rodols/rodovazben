@@ -17,22 +17,27 @@
 
 .card-mini {
   text-align: center;
-  background: #0f0258;
-  color: #fecd1a;
   font-weight: bolder;
   padding: 1em;
   margin: 1em;
   border-radius: 5px;
-  box-shadow: rgb(15, 2, 88) 2px 1px 5px 1px;
+  box-shadow: #006c87 1px 1px 2px 1px;
 }
 .description {
-  color: whitesmoke;
-  font-weight: 300;
+  margin: 3%;
+  color: #0f0258;
+  font-weight: 100;
   font-size: calc(0.5em + 1vw);
 }
 
+.git {
+  color: #fd3a69;
+}
+
 .title-yellow {
-  color: #fecd1a;
+  color: whitesmoke;
+  border-radius: 5px;
+  background-color: #fd3a69;
   padding: calc(0.2em + 1vw);
 }
 
@@ -50,7 +55,7 @@ h3 {
   font-size: calc(0.4em + 1vw);
   font-weight: bold;
   text-transform: uppercase;
-  color: #9d0191;
+  color: #0f0258;
 }
 
 @media screen and (max-width: 700px) {
