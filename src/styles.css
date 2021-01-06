@@ -9,6 +9,11 @@
   src: url(./assets/fonts/Lato/Lato-Regular.ttf) format("opentype");
 }
 
+body {
+  min-width: 320px;
+  max-width: 1980;
+}
+
 /*Colores*/
 
 /*azul
