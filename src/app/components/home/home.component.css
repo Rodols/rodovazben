@@ -8,26 +8,35 @@ section {
   cursor: pointer;
 }
 
-.card-mini {
+.btn {
   text-align: center;
-  background: #0f0258;
-  color: #fecd1a;
+  background: linear-gradient(
+    180deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  color: whitesmoke;
   font-weight: bolder;
   font-size: calc(0.5em + 1vw);
   padding: calc(0.3em + 1vw);
   margin: calc(0.3em + 1vw);
+  border: none;
   border-radius: 5px;
-  box-shadow: rgb(221, 219, 233) 2px 1px 5px 1px;
 }
 
 .contact {
   padding: calc(0.1em + 1vw);
   border: none;
   border-radius: 5px;
-  box-shadow: rgb(15, 2, 88) 2px 1px 5px 1px;
   text-align: center;
   font-weight: bold;
-  background-color: #0f0258;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
   color: whitesmoke;
 }
 
