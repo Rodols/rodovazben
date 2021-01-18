@@ -1,6 +1,6 @@
 .container h1 {
     margin: 0;
-    padding: 0.5em;
+    padding: 1%;
     font-size: calc(1.5em + 1vw);
     color: whitesmoke;
     text-transform: uppercase;
@@ -10,13 +10,28 @@
     padding: 1em 0;
     margin: 0;
     text-transform: uppercase;
-    font-size: calc(0.4em + 1vw);
-    color: rgb(179, 174, 174);
-    font-weight: 200;
+    font-size: calc(0.8em + 1vw);
+    color: whitesmoke;
+    font-weight: 600;
+}
+
+.description {
+    padding: 1%;
+    color: whitesmoke;
+    font-weight: 100;
+    font-size: calc(0.2em + 1vw);
 }
 
 hr {
     opacity: 0.3;
+}
+
+h3 {
+    padding: 1%;
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-size: calc(0.3em + 1vw);
+    font-weight: 200;
 }
 
 h4 {
@@ -30,64 +45,93 @@ h4 {
 
 .skewedBox1 {
     width: 100%;
+    height: 500px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 120px 0;
-    transform: skew(-0deg, -5deg) translateY(-120px);
+    justify-content: flex-start;
+    transform: skew(-0deg, -5deg) translateY(-5%);
 }
 
 .skewedBox2 {
     width: 100%;
+    height: 500px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: end;
+    align-items: flex-end;
     flex-direction: column;
-    background-color: rgb(58, 86, 245);
-    padding: 10px 0;
-    transform: skew(-0deg, -5deg) translateY(-250px);
+    background-color: rgb(76, 102, 248);
+    padding: 5% 0;
+    transform: skew(-0deg, -5deg) translateY(35%);
 }
 
 .skewedBox3 {
     width: 100%;
+    height: 500px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: start;
+    align-items: flex-start;
     flex-direction: column;
     background-color: rgb(87, 111, 245);
-    transform: skew(0deg, 5deg) translateY(-400px);
+    padding: 5% 0;
+    transform: skew(0deg, 5deg) translateY(5%);
 }
 
 .skewedBox4 {
     width: 100%;
+    height: 500px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: end;
+    align-items: flex-end;
     flex-direction: column;
-    background-color: #262626;
-    transform: skew(-0deg, -5deg) translateY(-550px);
+    background-color: rgb(72, 91, 196);
+    padding: 5% 0;
+    transform: skew(-0deg, -5deg) translateY(-25%);
+}
+
+.skewedBox5 {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: rgb(87, 111, 245);
+    padding: 5% 0;
+    transform: skew(0deg, 5deg) translateY(-35%);
 }
 
 .skewedBox1 .container {
-    margin: 0;
-    padding: 150px 200px;
-    transform: skew(0deg, 5deg) translateY(7em);
+    width: 100%;
+    margin: 20% 20% 2% 20%;
+    padding: 0;
+    transform: skew(0deg, 5deg);
 }
 
 .skewedBox2 .container {
-    margin: 0;
-    padding: 120px 200px;
-    transform: skew(0deg, 5deg) translateY(7em);
+    text-align: end;
+    line-height: calc(0.8em + 1vw);
+    margin: 0 20% 20% 20%;
+    padding: 0;
+    transform: skew(0deg, 5deg);
 }
 
 .skewedBox3 .container {
-    margin: 0;
-    padding: 100px 200px;
-    transform: skew(0deg, -5deg) translateY(7em);
+    line-height: calc(0.8em + 1vw);
+    margin: 0 20% 20% 20%;
+    padding: 0;
+    transform: skew(0deg, -5deg);
 }
 
 .skewedBox4 .container {
-    margin: 0;
-    transform: skew(0deg, 5deg) translateY(7em);
+    text-align: end;
+    line-height: calc(0.8em + 1vw);
+    margin: 0 20% 20% 20%;
+    padding: 0;
+    transform: skew(0deg, 5deg);
+}
+
+.skewedBox5 .container {
+    margin: 0 20% 20% 20%;
+    padding: 0;
+    line-height: calc(0.8em + 1vw);
+    transform: skew(0deg, -5deg);
 }

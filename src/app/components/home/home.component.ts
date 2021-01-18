@@ -22,7 +22,7 @@ import {
       ),
       transition(':enter', [
         animate(
-          500,
+          800,
           style({
             transform: 'scale(1)',
             opacity: 1,

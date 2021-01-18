@@ -1,27 +1,42 @@
 <div class="main">
-  <section class="skewedBox1">
-  <div class="container"
-    >
-    <h1 @enterState>Hola Bienvenido!</h1>
-    <hr @enterState>
-    <h2 @enterState>Aquí muestro mis proyectos y experiencia como dev</h2>
-  </div>
-</section>
-<section class="skewedBox2"
-  #hardware>
-  <div class="container">
-     <app-hardware></app-hardware> 
-  </div>
-</section>
-<section class="skewedBox3"
-  #software>
-  <div class="container">
-   <app-software></app-software>   
-  </div>
-</section>
-<section class="skewedBox4">
-  <div class="container">
-  <app-footer></app-footer>    
-  </div>
-</section>
+    <section class="skewedBox1">
+        <div class="container">
+            <h1 @enterState>Hola Bienvenido!</h1>
+            <hr @enterState>
+            <h3 @enterState>Aquí muestro mis proyectos y experiencia como dev</h3>
+        </div>
+    </section>
+    <section class="skewedBox2">
+        <div class="container">
+            <h2>Hardware</h2>
+            <hr>
+            <p class="description">Soy egresado del Tecnológico Superior de Xalapa donde estudie Ing. Electrónica con enfoque en la instrumentación. Desarrollo prototipos electrónicos con Arduino manejando los diversos sensores que existen en el mercado, dieseño y creación
+                de PCB'S para poder llevar mis prototipos al siguiente nivel y hacer los proyectos mas funcionales y escalables; también e creado interfaces con aplicaciones Android y sistemas web para poder manipular dichos prototipos; con las interfaces
+                se pretende ingresar al mundo del internet de las cosas y conseguir aplicar mis conocimientos para atender las necesidades o problemáticas de mi comunidad así como ayudar a otras personas a realizar sus proyectos e ideas</p>
+        </div>
+    </section>
+    <section class="skewedBox3" #software>
+        <div class="container">
+            <h2>Desarrolo web</h2>
+            <hr>
+            <p class="description">Tengo conocimientos en angular el cual e utilizado para crear algunos proyectos SPA y PWA, como backend firebase al igual que el hosting de firebase. Otras paginas las desarrolle utilizando php, bootstrap y sql, tambien tengo conocimientos
+                basicos en nodejs de como crear un api-res, al igual que con laravel.</p>
+        </div>
+    </section>
+    <section class="skewedBox4" #software>
+        <div class="container">
+            <h2>Aplicaciones Moviles</h2>
+            <hr>
+            <p class="description">
+                Desarrolle aplicaciones android con android estudio utilizando java y kotlin con las cuales e utilizado bases de datos SQLite para guardar datos de forma local, servicios como firebase para tener un backend listo para utilizar utilizando los servicios
+                de autentificacion, cloud-store, etc. Tambien utilise voley para poder consumir una api que cree utilizando PHP.
+            </p>
+        </div>
+    </section>
+    <section class="skewedBox5">
+        <div class="container">
+            <h2>Proyectos personales</h2>
+            <hr>
+        </div>
+    </section>
 </div>
