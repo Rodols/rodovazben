@@ -16,15 +16,15 @@
   margin: calc(0.3em + 1vw);
   border: none;
   border-radius: 5px;
-  box-shadow: #006c87 1px 1px 2px 1px;
+  box-shadow: #b5c3c7 1px 1px 2px 1px;
 }
 
 h2 {
-  text-align: center;
+  text-align: end;
   font-size: calc(1em + 1vw);
   font-weight: bold;
   text-transform: uppercase;
-  color: #0f0258;
+  color: whitesmoke;
 }
 
 .list {

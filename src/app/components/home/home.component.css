@@ -1,136 +1,93 @@
-section {
-  position: relative;
-  height: 100vh;
-  z-index: 1;
+.container h1 {
+    margin: 0;
+    padding: 0.5em;
+    font-size: calc(1.5em + 1vw);
+    color: whitesmoke;
+    text-transform: uppercase;
 }
 
-.section1 button {
-  cursor: pointer;
+.container h2 {
+    padding: 1em 0;
+    margin: 0;
+    text-transform: uppercase;
+    font-size: calc(0.4em + 1vw);
+    color: rgb(179, 174, 174);
+    font-weight: 200;
 }
 
-.btn {
-  text-align: center;
-  background: linear-gradient(
-    180deg,
-    rgb(18, 0, 120, 1) 0%,
-    rgba(9, 9, 121, 1) 35%,
-    rgba(0, 212, 255, 1) 100%
-  );
-  color: whitesmoke;
-  font-weight: bolder;
-  font-size: calc(0.5em + 1vw);
-  padding: calc(0.3em + 1vw);
-  margin: calc(0.3em + 1vw);
-  border: none;
-  border-radius: 5px;
-  box-shadow: #006c87 1px 1px 2px 1px;
-}
-
-.contact {
-  padding: calc(0.1em + 1vw);
-  border: none;
-  border-radius: 5px;
-  text-align: center;
-  font-weight: bold;
-  background: linear-gradient(
-    90deg,
-    #120078 0%,
-    rgba(9, 9, 121, 1) 35%,
-    rgba(0, 212, 255, 1) 100%
-  );
-  color: whitesmoke;
-}
-
-.contact span {
-  color: #fecd1a;
+hr {
+    opacity: 0.3;
 }
 
 h4 {
-  font-size: calc(0.4em + 1vw);
+    font-size: calc(0.5em + 1vw);
 }
 
-.section1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  background-image: url(../../../assets/img/pc_glasses.jpg);
-  overflow: hidden;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-}
-.section2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  /* background-image: url(../../../assets/img/spencer.jpg); */
-  overflow: hidden;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
+.main {
+    width: 100%;
+    background-color: #262626;
 }
 
-.section3 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-  background-image: url(../../../assets/img/ilya-pavlov.jpg);
-  overflow: hidden;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
+.skewedBox1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 120px 0;
+    transform: skew(-0deg, -5deg) translateY(-120px);
 }
 
-.section4 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  /* background-image: url(../../../assets/img/pc_retro.jpg); */
-  overflow: hidden;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
+.skewedBox2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(58, 86, 245);
+    padding: 10px 0;
+    transform: skew(-0deg, -5deg) translateY(-250px);
 }
 
-.section5 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  /* background-image: url(../../../assets/img/pc_retro.jpg); */
-  background: lin;
-  overflow: hidden;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  animation-name: spin;
-  animation-duration: 2000ms;
-  transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+.skewedBox3 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(87, 111, 245);
+    transform: skew(0deg, 5deg) translateY(-400px);
 }
 
-.section3::before {
-  content: "";
-  width: 100%;
-  height: 100vh;
-  background-color: rgb(15, 2, 88);
-  position: absolute;
-  left: 0;
-  opacity: 0.7;
-  z-index: -1;
+.skewedBox4 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #262626;
+    transform: skew(-0deg, -5deg) translateY(-550px);
 }
 
-.section5::before {
-  content: "";
-  width: 100%;
-  height: 100vh;
-  background-color: #0f0258;
-  position: absolute;
-  left: 0;
-  opacity: 0.7;
-  z-index: -1;
-  rotate: 45;
+.skewedBox1 .container {
+    margin: 0;
+    padding: 150px 200px;
+    transform: skew(0deg, 5deg) translateY(7em);
+}
+
+.skewedBox2 .container {
+    margin: 0;
+    padding: 120px 200px;
+    transform: skew(0deg, 5deg) translateY(7em);
+}
+
+.skewedBox3 .container {
+    margin: 0;
+    padding: 100px 200px;
+    transform: skew(0deg, -5deg) translateY(7em);
+}
+
+.skewedBox4 .container {
+    margin: 0;
+    transform: skew(0deg, 5deg) translateY(7em);
 }

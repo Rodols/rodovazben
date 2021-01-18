@@ -1,25 +1,27 @@
-<section class="section1">
-  <div @enterState>
-    <button type="button" class="btn" (click)="hardwareVer()">Hardware</button>
-    <button type="button" class="btn" (click)="serviciosVer()">
-      Servicios
-    </button>
-    <button type="button" class="btn" (click)="softwareVer()">Software</button>
-    <h4 class="contact">
-      <span>WhatsApp:</span> 2292462909, <span> Email:</span>
-      vazquezbr.28@gmail.com
-    </h4>
+<div class="main">
+  <section class="skewedBox1">
+  <div class="container"
+    >
+    <h1 @enterState>Hola Bienvenido!</h1>
+    <hr @enterState>
+    <h2 @enterState>Aquí muestro mis proyectos y experiencia como dev</h2>
   </div>
 </section>
-<section class="section2" @enterState #servicios>
-  <app-servicios></app-servicios>
+<section class="skewedBox2"
+  #hardware>
+  <div class="container">
+     <app-hardware></app-hardware> 
+  </div>
 </section>
-<section class="section3" #hardware>
-  <app-hardware></app-hardware>
+<section class="skewedBox3"
+  #software>
+  <div class="container">
+   <app-software></app-software>   
+  </div>
 </section>
-<section class="section4" #software>
-  <app-software></app-software>
+<section class="skewedBox4">
+  <div class="container">
+  <app-footer></app-footer>    
+  </div>
 </section>
-<section class="section5">
-  <app-footer></app-footer>
-</section>
+</div>
