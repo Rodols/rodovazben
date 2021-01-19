@@ -19,7 +19,7 @@
     padding: 1%;
     color: whitesmoke;
     font-weight: 100;
-    font-size: calc(0.2em + 1vw);
+    font-size: calc(0.4em + 1vw);
 }
 
 hr {
@@ -72,19 +72,19 @@ h4 {
 
 .skewedBox1 {
     width: 100%;
-    height: 500px;
+    height: 35rem;
     display: flex;
     justify-content: flex-start;
     background-color: #333333;
-    transform: skew(-0deg, -5deg) translateY(-5%);
+    transform: skew(-0deg, -5deg);
 }
 
 .skewedBox2 {
     width: 100%;
-    height: 500px;
+    height: 35rem;
     display: flex;
-    justify-content: end;
-    align-items: flex-end;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
     background-color: rgb(76, 102, 248);
     padding: 5% 0;
@@ -93,10 +93,10 @@ h4 {
 
 .skewedBox3 {
     width: 100%;
-    height: 500px;
+    height: 35rem;
     display: flex;
-    justify-content: start;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
     background-color: rgb(87, 111, 245);
     padding: 5% 0;
@@ -105,10 +105,10 @@ h4 {
 
 .skewedBox4 {
     width: 100%;
-    height: 500px;
+    height: 35rem;
     display: flex;
-    justify-content: end;
-    align-items: flex-end;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
     background-color: rgb(72, 91, 196);
     padding: 5% 0;
@@ -117,10 +117,11 @@ h4 {
 
 .skewedBox5 {
     width: 100%;
-    height: 800px;
+    height: 50rem;
     display: flex;
-    justify-content: start;
-    align-items: flex-start;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
     background-color: #333333;
     padding: 5% 0;
     transform: skew(0deg, 5deg) translateY(-35%);
@@ -157,9 +158,79 @@ h4 {
 }
 
 .skewedBox5 .container {
-    width: 100%;
     margin: 0 20% 20% 20%;
     padding: 0;
     line-height: calc(0.8em + 1vw);
     transform: skew(0deg, -5deg);
+}
+
+@media screen and (max-width:1300px) {
+    .skewedBox1 {
+        height: 20rem;
+    }
+    .projects .card img {
+        height: 12rem;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .projects .card {
+        width: 100%;
+    }
+    .projects .card img {
+        height: 20rem;
+    }
+    .skewedBox1 .container {
+        margin: 25% 10% 0 10%;
+        height: 15rem;
+    }
+    .skewedBox2 .container {
+        height: 22rem;
+    }
+    .skewedBox3 .container {
+        height: 22rem;
+    }
+    .skewedBox4 .container {
+        height: 22rem;
+    }
+    .skewedBox5 .container {
+        height: 40rem;
+    }
+}
+
+@media screen and (max-width:750px) {
+    .container h1 {
+        margin-top: 35%;
+        font-size: calc(1.2em + 1vw);
+    }
+    .projects .card img {
+        height: 15rem;
+    }
+    .skewedBox1 .container {
+        margin: 10% 10% 10% 10%;
+    }
+    .skewedBox2 .container {
+        margin: 0 10% 10% 10%;
+    }
+    .skewedBox3 .container {
+        margin: 10% 10% 10% 10%;
+    }
+    .skewedBox3 .container {
+        margin: 10% 10% 10% 10%;
+    }
+    .skewedBox4 .container {
+        margin: 10% 10% 10% 10%;
+    }
+    .skewedBox5 .container {
+        margin: 10% 10% 10% 10%;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .projects .card img {
+        height: 10rem;
+    }
+    .skewedBox1 .container {
+        margin: 40% 10% 0 10%;
+    }
 }
