@@ -13,7 +13,7 @@
 body {
     min-width: 320px;
     max-width: 1980;
-    background-color: #333333;
+    background-color: #33415C;
 }
 
 
@@ -21,11 +21,18 @@ body {
 
 
 /*azul
-#120078
-Rosa
-#9d0191
-Naranja
-#fd3a69
-Amarillo
-#fecd1a
+/* CSS HEX */
+
+
+/*
+--prussian-blue: #012a4aff;
+--indigo-dye: #013a63ff;
+--indigo-dye-2: #01497cff;
+--usafa-blue: #014f86ff;
+--sapphire-blue: #2a6f97ff;
+--celadon-blue: #2c7da0ff;
+--blue-green: #468fafff;
+--maximum-blue: #61a5c2ff;
+--dark-sky-blue: #89c2d9ff;
+--light-blue: #a9d6e5ff;
 */
